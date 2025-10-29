@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include <stdlib.h>
 int main(){
 	float a,b;
 	int choice;
@@ -28,8 +29,7 @@ int main(){
 			    printf("%.2f / %.2f = %.2f \n",a,b, a/b);
 		    break;
 		case 5:
-			printf("Thoat chuong trinh");
-			break;
+			exit(0);
 		default:
 			printf("Loi lua chon, chon lai di be \n");
 		}}
@@ -38,3 +38,4 @@ int main(){
 }
 		
 	
+
